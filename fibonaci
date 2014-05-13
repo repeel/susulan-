@@ -8,7 +8,7 @@ int x = Integer.parseInt(s);
 for(int i=1; i<=x; i++){
 t=p;
 p=hasil;
-System.out.print(hasil+" ");
+System.out.print(rev.hasil+" ");
 hasil=t+p;
 }
 }

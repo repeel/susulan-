@@ -1,0 +1,15 @@
+ import javax.swing.*;
+class deretfibonacci{
+public static void main (String [] args) {
+int  t=0, p=1, hasil=0;
+String s = JOptionPane.showInputDialog("Masukkan banyaknya deret Fibonacci: " );
+int x = Integer.parseInt(s);
+for(int i=1; i<=x; i++){
+t=p;
+p=hasil;
+System.out.print(hasil+" ");
+hasil=t+p;
+hasil=hasil+hasil;
+}
+}
+}
